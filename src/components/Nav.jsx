@@ -1,22 +1,31 @@
 import React from "react";
+import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 const Nav = () => {
   return (
-    <div>
+    <Navigation>
       <ul>
         <li>
-          <Link to="/">Home</Link>
+          <Link>Home</Link>
         </li>
         <li>
-          <Link to="/about">About</Link>
+          <Link>Work</Link>
         </li>
         <li>
-          <Link to="/contact">Contact</Link>
+          <Link>About</Link>
+        </li>
+        <li>
+          <Link>Contact</Link>
         </li>
       </ul>
-    </div>
+    </Navigation>
   );
 };
 
 export default Nav;
+
+const Navigation = styled.nav`
+  
+
+`

@@ -1,14 +1,22 @@
 import React from "react";
-import Nav from "./Nav";
+import styled from "styled-components";
 import { Outlet } from "react-router-dom";
+import Header from "./Header";
 
 const Layout = () => {
   return (
-    <div>
-      <Nav />
+    <Section>
+      <Header />
       <Outlet />
-    </div>
+    </Section>
   );
 };
 
 export default Layout;
+
+const Section = styled.section`
+  width: 100%;
+  max-width: 192rem;
+  background: red;
+  margin: auto;
+`;
