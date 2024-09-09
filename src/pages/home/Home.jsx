@@ -1,12 +1,15 @@
-import React from 'react'
-
+import React from "react";
+import styled from "styled-components";
+import { MyPortfolio } from "../../components/index.js";
 
 const Home = () => {
   return (
-    <div>
-      <h1>This is Home Page</h1>
-    </div>
-  )
-}
+    <Section>
+      <MyPortfolio />
+    </Section>
+  );
+};
 
-export default Home
+export default Home;
+
+const Section = styled.section``;

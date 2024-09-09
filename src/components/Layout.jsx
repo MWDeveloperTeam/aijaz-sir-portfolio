@@ -12,11 +12,11 @@ const Layout = () => {
   );
 };
 
+
 export default Layout;
 
 const Section = styled.section`
   width: 100%;
-  max-width: 192rem;
-  background: red;
+  max-width: 120rem;
   margin: auto;
 `;
