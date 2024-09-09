@@ -24,6 +24,7 @@ const Section = styled.header`
   justify-content: space-between;
   align-items: center;
   background-color: ${Color.primaryColor};
+  z-index: 1;
 
   padding: 1.6rem 0;
 
