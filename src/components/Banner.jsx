@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import bannerImg from '../assets/imgs/banner.jpg';
-import { Color } from '../assets/Colors';
+import { Color } from '../assets/Colors.js';
 
 const Banner = () => {
   return (
