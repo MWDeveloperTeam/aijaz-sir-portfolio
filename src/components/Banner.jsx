@@ -21,9 +21,11 @@ const Banner = () => {
 
 export default Banner;
 const Section = styled.section`
-  height: 200vh;
+  height: 130vh;
   position: relative;
-  bannerImage {
+  width: 100%;
+  max-width: 120rem;
+  .bannerImage {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -35,23 +37,90 @@ const Section = styled.section`
   .bannerContent {
     position: absolute;
     z-index: 5;
-    left: 30rem;
+    left: 25rem;
     right: 0;
-    top: 50rem;
+    bottom: 0;
     h1 {
-      font-size: 10rem;
+      font-size: 9rem;
       color: ${Color.seconderyColor};
+      line-height: 10rem;
+      font-weight: 900;
     }
     .cornerImage {
       height: 15rem;
       border-bottom: 1px solid ${Color.seconderyColor};
       position: relative;
       img {
-        height: 50px;
-        width: 50px;
+        height: 10rem;
+        width: 10rem;
         position: absolute;
         right: 0;
         bottom: 2.5rem;
+      }
+    }
+  }
+  @media only screen and (max-width: 1024px) {
+    height: 100vh;
+
+    .bannerContent {
+      left: 10rem;
+
+      h1 {
+        font-size: 6rem;
+        line-height: 7rem;
+      }
+      .cornerImage {
+        height: 15rem;
+
+        img {
+          height: 10rem;
+          width: 10rem;
+          bottom: 2.5rem;
+        }
+      }
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    height: 100vh;
+
+    .bannerContent {
+      left: 5rem;
+      padding-right: 1rem;
+
+      h1 {
+        font-size: 4rem;
+        line-height: 1em;
+      }
+      .cornerImage {
+        height: 15rem;
+
+        img {
+          height: 10rem;
+          width: 10rem;
+          bottom: 2.5rem;
+        }
+      }
+    }
+  }
+  @media only screen and (max-width: 425px) {
+    height: 120vh;
+
+    .bannerContent {
+      left: 2rem;
+      padding-right: 1rem;
+
+      h1 {
+        font-size: 4rem;
+        line-height: 5rem;
+      }
+      .cornerImage {
+        height: 10rem;
+
+        img {
+          height: 7rem;
+          width: 7rem;
+          bottom: 2.5rem;
+        }
       }
     }
   }
