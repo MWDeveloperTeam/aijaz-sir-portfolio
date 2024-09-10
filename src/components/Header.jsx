@@ -17,15 +17,15 @@ export default Header;
 const Section = styled.header`
   width: 100%;
   max-width: 120rem;
-  position: fixed;
+  position: sticky;
   margin: auto;
   top: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: ${Color.primaryColor};
+  /* background-color: red; */
   z-index: 1;
-
   padding: 1.6rem 0;
 
   .logo_wrapper {
