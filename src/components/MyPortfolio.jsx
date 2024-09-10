@@ -42,7 +42,7 @@ const Section = styled.section`
   /* background-color: maroon; */
   /* padding: 2rem; */
   height: auto;
-  overflow: hidden;
+  /* overflow: hidden; */
   /* padding: 2rem 0; */
 
   .title_wrapper {
