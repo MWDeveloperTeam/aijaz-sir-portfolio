@@ -1,12 +1,12 @@
-import React from "react";
-import styled from "styled-components";
-import Nav from "./Nav";
-import { Color } from "../assets/Colors";
+import React from 'react';
+import styled from 'styled-components';
+import Nav from './Nav';
+import { Color } from '../assets/Colors';
 
 const Header = () => {
   return (
     <Section>
-      <div className="logo_wrapper">Aijaz Sir</div>
+      <div className='logo_wrapper'>Aijaz Sir</div>
       <Nav />
     </Section>
   );
@@ -24,8 +24,8 @@ const Section = styled.header`
   justify-content: space-between;
   align-items: center;
   background-color: ${Color.primaryColor};
+  z-index: 9;
   /* background-color: red; */
-  z-index: 1;
   padding: 1.6rem 0;
 
   .logo_wrapper {
