@@ -1,11 +1,18 @@
 import React from "react";
 import styled from "styled-components";
 import { Color } from "../../assets/Colors";
+import AboutMeHeader from "../../components/AboutMeHeader";
+import AboutMeBanner from "../../components/AboutMeBanner";
+import Skills from "../../components/Skills";
+import Clients from "../../components/Clients";
 
 const About = () => {
   return (
     <AboutMe>
-      <h1>This is About Page</h1>
+      <AboutMeHeader />
+      <AboutMeBanner />
+      <Skills />
+      <Clients />
     </AboutMe>
   );
 };
