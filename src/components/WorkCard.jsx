@@ -1,23 +1,23 @@
-import React from "react";
-import styled from "styled-components";
-import { Color } from "../assets/Colors";
+import React from 'react';
+import styled from 'styled-components';
+import { Color } from '../assets/Colors';
 
 const WorkCard = ({ data }) => {
   const { title, img, description } = data;
 
   return (
     <Card>
-      <div className="animation_text_wrapper">
+      <div className='animation_text_wrapper'>
         <span>
           {title}
           {description}
         </span>
       </div>
-      <div className="card_content_wrapper">
-        <div className="img_wrapper">
-          <img src={img} alt="Image" />
+      <div className='card_content_wrapper'>
+        <div className='img_wrapper'>
+          <img src={img} alt='Image' />
         </div>
-        <div className="content_wrapper">
+        <div className='content_wrapper'>
           <h1>
             <span>{title} </span>
             <span>{description}</span>

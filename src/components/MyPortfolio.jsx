@@ -1,34 +1,34 @@
-import React from "react";
-import styled from "styled-components";
-import { Color } from "../assets/Colors";
-import WorkCard from "./WorkCard";
+import React from 'react';
+import styled from 'styled-components';
+import { Color } from '../assets/Colors';
+import WorkCard from './WorkCard';
 
 const MyPortfolio = () => {
   const cardData = [
     {
-      img: "https://puzzlerbox.com/templatekits-free/personal/wp-content/uploads/sites/16/2022/05/project_01.jpg",
-      title: "Good Design",
-      description: "Naming, Branding, Web Design",
+      img: 'https://puzzlerbox.com/templatekits-free/personal/wp-content/uploads/sites/16/2022/05/project_01.jpg',
+      title: 'Good Design',
+      description: 'Naming, Branding, Web Design',
     },
     {
-      img: "https://puzzlerbox.com/templatekits-free/personal/wp-content/uploads/sites/16/2022/05/project_02_01.jpg",
-      title: "PB Tube",
-      description: "Naming, Branding, Packing",
+      img: 'https://puzzlerbox.com/templatekits-free/personal/wp-content/uploads/sites/16/2022/05/project_02_01.jpg',
+      title: 'PB Tube',
+      description: 'Naming, Branding, Packing',
     },
     {
-      img: "https://puzzlerbox.com/templatekits-free/personal/wp-content/uploads/sites/16/2022/05/project_03_01.jpg",
-      title: "OnBank Banking",
-      description: "Branding, Web Design, App",
+      img: 'https://puzzlerbox.com/templatekits-free/personal/wp-content/uploads/sites/16/2022/05/project_03_01.jpg',
+      title: 'OnBank Banking',
+      description: 'Branding, Web Design, App',
     },
   ];
   return (
     <Section>
-      <h1 className="title_wrapper">
+      <h1 className='title_wrapper'>
         <span>Check my</span>
         <span>Portfolio</span>
       </h1>
       {cardData.map((data, index) => (
-        <WorkCard key={index} data={data}/>
+        <WorkCard key={index} data={data} />
       ))}
     </Section>
   );

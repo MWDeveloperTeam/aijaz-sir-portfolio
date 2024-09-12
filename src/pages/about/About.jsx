@@ -1,6 +1,6 @@
-import React from "react";
-import styled from "styled-components";
-import { Color } from "../../assets/Colors";
+import React from 'react';
+import styled from 'styled-components';
+import { Color } from '../../assets/Colors';
 
 const About = () => {
   return (

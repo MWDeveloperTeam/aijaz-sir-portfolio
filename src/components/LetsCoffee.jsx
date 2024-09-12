@@ -1,18 +1,18 @@
-import React from "react";
-import styled from "styled-components";
-import { IoArrowRedoSharp } from "react-icons/io5";
-import { Color } from "../assets/Colors";
+import React from 'react';
+import styled from 'styled-components';
+import { IoArrowRedoSharp } from 'react-icons/io5';
+import { Color } from '../assets/Colors';
 
 const LetsCoffee = () => {
   return (
     <Coffee>
-      <div className="coffee_left_wrapper">
+      <div className='coffee_left_wrapper'>
         <h1>
           <span>Let's</span> <span>Coffee</span>
         </h1>
         <h1>together!​</h1>
       </div>
-      <div className="coffee_right_wrapper">
+      <div className='coffee_right_wrapper'>
         <IoArrowRedoSharp />
         <h3>Get in touch</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>

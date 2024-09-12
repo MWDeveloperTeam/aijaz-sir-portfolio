@@ -1,23 +1,23 @@
-import React from "react";
-import styled from "styled-components";
-import { NavLink } from "react-router-dom";
-import { Color } from "../assets/Colors";
+import React from 'react';
+import styled from 'styled-components';
+import { NavLink } from 'react-router-dom';
+import { Color } from '../assets/Colors';
 
 const Nav = () => {
   return (
     <Navigation>
       <ul>
         <li>
-          <NavLink to="/">Home</NavLink>
+          <NavLink to='/'>Home</NavLink>
         </li>
         <li>
-          <NavLink to="work">Work</NavLink>
+          <NavLink to='work'>Work</NavLink>
         </li>
         <li>
-          <NavLink to="about">About</NavLink>
+          <NavLink to='about'>About</NavLink>
         </li>
         <li>
-          <NavLink to="contact">Contact</NavLink>
+          <NavLink to='contact'>Contact</NavLink>
         </li>
       </ul>
     </Navigation>
