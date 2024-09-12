@@ -31,6 +31,6 @@ const Section = styled.section`
     padding: 0 2rem;
     /* background-color: olive; */
     position: relative;
-    height: 100%;
+    /* height: 100%; */
   }
 `;

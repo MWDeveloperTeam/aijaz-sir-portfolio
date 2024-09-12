@@ -4,21 +4,22 @@ import { NavLink } from "react-router-dom";
 import { Color } from "../assets/Colors";
 
 const Nav = () => {
+  const menu_list = [
+    { items: "Home", to: "/" },
+    { items: "Work", to: "work" },
+    { items: "About", to: "about" },
+    { items: "Contact", to: "contact" },
+  ];
   return (
     <Navigation>
       <ul>
-        <li>
-          <NavLink to="/">Home</NavLink>
-        </li>
-        <li>
-          <NavLink to="work">Work</NavLink>
-        </li>
-        <li>
-          <NavLink to="about">About</NavLink>
-        </li>
-        <li>
-          <NavLink to="contact">Contact</NavLink>
-        </li>
+        {menu_list.map((item, i) => (
+          <li key={i}>
+            <NavLink to={item.to} onClick={() => setOpen(false)}>
+              {item.items}
+            </NavLink>
+          </li>
+        ))}
       </ul>
     </Navigation>
   );

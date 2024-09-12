@@ -4,34 +4,27 @@ import { IoArrowRedo } from "react-icons/io5";
 import { Color } from "../assets/Colors";
 import arrowImg from "../assets/arrow_anim_01.gif";
 
-const AboutMeHeader = () => {
+const WorkHeader = () => {
   return (
-    <AboutMeHeaderSection>
+    <WorkHeaderSection>
       <h1>
-        <span>Abouts</span>
-        <span>Me</span>
+        <span>Recent</span>
+        <span>Work</span>
       </h1>
-      <p className="about_header_title">
-        I am{" "}
-        <span style={{ fontWeight: "900", fontStyle: "italic" }}>
-          Aijaz Ahmad
-        </span>
-        , a Graphic Designer & Creative Director based in San Francisco.
-      </p>
       <p className="about_disc">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
         luctus nec ullamcorper mattis, pulvinar dapibus leo.
       </p>
       <div className="about_icon">
-        <img src={arrowImg} alt="arrow" />
+        <img src={arrowImg} alt="arrowImg" />
       </div>
-    </AboutMeHeaderSection>
+    </WorkHeaderSection>
   );
 };
 
-export default AboutMeHeader;
+export default WorkHeader;
 
-const AboutMeHeaderSection = styled.section`
+const WorkHeaderSection = styled.section`
   display: flex;
   flex-direction: column;
   gap: 3rem;

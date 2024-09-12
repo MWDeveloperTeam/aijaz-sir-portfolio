@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
 import { IoArrowRedoSharp } from "react-icons/io5";
 import { Color } from "../assets/Colors";
+import arrowImg from "../assets/arrow_anim_01.gif";
 
 const LetsCoffee = () => {
   return (
@@ -13,7 +14,7 @@ const LetsCoffee = () => {
         <h1>together!​</h1>
       </div>
       <div className="coffee_right_wrapper">
-        <IoArrowRedoSharp />
+        <img src={arrowImg} alt="arrow" />
         <h3>Get in touch</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
       </div>
@@ -85,9 +86,7 @@ const Coffee = styled.div`
       align-items: center;
     }
 
-    svg {
-      font-size: 10rem;
-
+    img {
       @media only screen and (max-width: 768px) {
         display: none;
       }

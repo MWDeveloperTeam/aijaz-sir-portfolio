@@ -1,0 +1,14 @@
+.react-photo-album--photo{
+overflow: hidden;
+}
+
+.react-photo-album--image {
+  transition: ease-in-out 0.3s;
+  /* border: 2px solid rgb(255, 255, 255); */
+}
+
+.react-photo-album--image:hover {
+  position: relative;
+  transform: scale(1.2) ;
+  z-index: 2;
+}
