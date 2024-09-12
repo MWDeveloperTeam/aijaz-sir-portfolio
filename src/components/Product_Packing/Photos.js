@@ -30,11 +30,6 @@ export default [
     height: 1200,
   },
   {
-    src: img8,
-    width: 1400,
-    height: 1200,
-  },
-  {
     src: img2,
     width: 1400,
     height: 1200,
