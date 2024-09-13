@@ -1,7 +1,7 @@
-import React from "react";
-import styled from "styled-components";
-import { NavLink } from "react-router-dom";
-import { Color } from "../assets/Colors";
+import React from 'react';
+import styled from 'styled-components';
+import { NavLink } from 'react-router-dom';
+import { Color } from '../assets/Colors';
 
 const Nav = () => {
   const menu_list = [

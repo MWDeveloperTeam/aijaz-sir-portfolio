@@ -1,22 +1,25 @@
-import React, { useState } from "react";
-import styled from "styled-components";
-import { IoArrowRedoSharp } from "react-icons/io5";
-import { Color } from "../assets/Colors";
-import arrowImg from "../assets/arrow_anim_01.gif";
+import React, { useState } from 'react';
+import styled from 'styled-components';
+import { IoArrowRedoSharp } from 'react-icons/io5';
+import { Color } from '../assets/Colors';
+import arrowImg from '../assets/arrow_anim_01.gif';
 
 const LetsCoffee = () => {
   return (
     <Coffee>
-      <div className="coffee_left_wrapper">
+      <div className='coffee_left_wrapper'>
         <h1>
           <span>Let's</span> <span>Coffee</span>
         </h1>
         <h1>together!​</h1>
       </div>
-      <div className="coffee_right_wrapper">
-        <img src={arrowImg} alt="arrow" />
-        <h3>Get in touch</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <div className='coffee_right_wrapper'>
+        <img src={arrowImg} alt='arrow' />
+        <div className='coffee_right_wrapper'>
+          <IoArrowRedoSharp />
+          <h3>Get in touch</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
       </div>
     </Coffee>
   );

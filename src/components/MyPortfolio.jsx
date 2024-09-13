@@ -30,7 +30,7 @@ const MyPortfolio = () => {
 
   return (
     <Section>
-      <h1 className="title_wrapper">
+      <h1 className='title_wrapper'>
         <span>Check my</span>
         <span>Portfolio</span>
       </h1>
