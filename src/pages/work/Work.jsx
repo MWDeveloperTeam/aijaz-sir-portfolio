@@ -5,6 +5,7 @@ import WorkHeader from "../../components/WorkHeader";
 import GraphicDesign from "../../components/Graphic Design/GraphicDesign";
 import GraphicPhoto from "../../components/Graphic Design/Photos.js";
 import ProductPhoto from "../../components/Product_Packing/Photos.js";
+import VisualPhoto from "../../components/3D Visualisation/Photos.js";
 
 const Work = () => {
   return (
@@ -25,7 +26,7 @@ const Work = () => {
             <span>3D</span> <span>Visualisation</span>
           </h1>
         </div>
-        <GraphicDesign Photoss={ProductPhoto} />
+        <GraphicDesign Photoss={VisualPhoto} />
       </div>
 
       <div className="my_work_gallery_container">

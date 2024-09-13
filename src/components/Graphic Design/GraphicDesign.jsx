@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import { Color } from "../../assets/Colors.js";
-import Photos from "./Photos.js";
 import { ColumnsPhotoAlbum } from "react-photo-album";
 import "react-photo-album/columns.css";
 import Lightbox from "yet-another-react-lightbox";
@@ -12,7 +11,7 @@ import Thumbnails from "yet-another-react-lightbox/plugins/thumbnails";
 import "yet-another-react-lightbox/plugins/thumbnails.css";
 import "./style.css";
 
-const GraphicDesign = ({Photoss}) => {
+const GraphicDesign = ({ Photoss }) => {
   const [index, setIndex] = useState(-1);
   const [newPhoto, SetNewPhoto] = useState(Photoss.slice(0, 10));
   const photoHander = () => {
@@ -69,6 +68,9 @@ const GraphicSection = styled.div`
       font-size: 2rem;
       border: none;
 
+      @media only screen and (max-width: 520px) {
+        padding: 1.2rem 3.6rem;
+      }
 
       &:hover {
         border: 0.1rem solid ${Color.seconderyColor};
