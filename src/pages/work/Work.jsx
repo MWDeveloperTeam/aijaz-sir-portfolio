@@ -16,25 +16,27 @@ const Work = () => {
             <span>Graphic</span> <span>Desiging</span>
           </h1>
         </div>
-        <GraphicDesign photo={GraphicPhoto} />
+        <GraphicDesign Photoss={GraphicPhoto} />
       </div>
 
       <div className='my_work_gallery_container'>
         <div className='graphic_design_header_wrapper'>
           <h1>
-            <span>Graphic</span> <span>Desiging</span>
+            <span>3D</span> <span>Visualisation</span>
           </h1>
         </div>
-        <GraphicDesign photo={ProductPhoto} />
+        <GraphicDesign Photoss={ProductPhoto} />
       </div>
 
       <div className='my_work_gallery_container'>
         <div className='graphic_design_header_wrapper'>
           <h1>
-            <span>Product &</span> <span>Packing</span>
+            <span>Product &</span> <span>Packaging</span>
           </h1>
         </div>
-        <GraphicDesign photo={ProductPhoto} />
+
+        <GraphicDesign Photoss={ProductPhoto} />
+
       </div>
     </WorkSection>
   );
