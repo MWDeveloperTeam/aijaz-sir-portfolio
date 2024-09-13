@@ -1,24 +1,24 @@
-import React from "react";
-import styled from "styled-components";
-import { Color } from "../assets/Colors";
-import { FaFacebook, FaTwitter, FaLinkedinIn } from "react-icons/fa";
-import { Link } from "react-router-dom";
+import React from 'react';
+import styled from 'styled-components';
+import { Color } from '../assets/Colors';
+import { FaFacebook, FaTwitter, FaLinkedinIn } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
     <FooterSection>
-      <div className="social_media_icons_wrappe">
-        <Link to="https://www.facebook.com" target="_blank">
+      <div className='social_media_icons_wrappe'>
+        <Link to='https://www.facebook.com' target='_blank'>
           <FaFacebook />
         </Link>
-        <Link to="https://www.x.com" target="_blank">
+        <Link to='https://www.x.com' target='_blank'>
           <FaTwitter />
         </Link>
-        <Link to="https://www.linkedin.com/" target="_blank">
+        <Link to='https://www.linkedin.com/' target='_blank'>
           <FaLinkedinIn />
         </Link>
       </div>
-      <div className="copy_right_wrapper">
+      <div className='copy_right_wrapper'>
         &#169; Aijaz Ahmad - {new Date().getFullYear()}
       </div>
     </FooterSection>

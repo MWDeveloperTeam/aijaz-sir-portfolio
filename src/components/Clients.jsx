@@ -1,34 +1,34 @@
-import React from "react";
-import { Color } from "../assets/Colors";
-import styled from "styled-components";
+import React from 'react';
+import { Color } from '../assets/Colors';
+import styled from 'styled-components';
 
 
 const Clients = () => {
   const imgs = [
     {
-      img: "https://puzzlerbox.com/templatekits-free/personal/wp-content/uploads/sites/16/2022/05/lo_01.png",
+      img: 'https://puzzlerbox.com/templatekits-free/personal/wp-content/uploads/sites/16/2022/05/lo_01.png',
     },
     {
-      img: "https://puzzlerbox.com/templatekits-free/personal/wp-content/uploads/sites/16/2022/05/lo_02.png",
+      img: 'https://puzzlerbox.com/templatekits-free/personal/wp-content/uploads/sites/16/2022/05/lo_02.png',
     },
     {
-      img: "https://puzzlerbox.com/templatekits-free/personal/wp-content/uploads/sites/16/2022/05/lo_03.png",
+      img: 'https://puzzlerbox.com/templatekits-free/personal/wp-content/uploads/sites/16/2022/05/lo_03.png',
     },
     {
-      img: "https://puzzlerbox.com/templatekits-free/personal/wp-content/uploads/sites/16/2022/05/lo_04.png",
+      img: 'https://puzzlerbox.com/templatekits-free/personal/wp-content/uploads/sites/16/2022/05/lo_04.png',
     },
     {
-      img: "https://puzzlerbox.com/templatekits-free/personal/wp-content/uploads/sites/16/2022/05/lo_05.png",
+      img: 'https://puzzlerbox.com/templatekits-free/personal/wp-content/uploads/sites/16/2022/05/lo_05.png',
     },
     {
-      img: "https://puzzlerbox.com/templatekits-free/personal/wp-content/uploads/sites/16/2022/05/lo_06.png",
+      img: 'https://puzzlerbox.com/templatekits-free/personal/wp-content/uploads/sites/16/2022/05/lo_06.png',
     },
   ];
   return (
     <Section>
       <h1>Clients</h1>
-      <div className="client_content_wrapper">
-        <div className="client_left_wrapper">
+      <div className='client_content_wrapper'>
+        <div className='client_left_wrapper'>
           <h3>
             I worked with some pretty outstanding people at some pretty awesome
             companies.
@@ -44,10 +44,10 @@ const Clients = () => {
           </p>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
-        <div className="client_right_wrapper">
+        <div className='client_right_wrapper'>
           {imgs.map((img, i) => (
-            <div className="client_img_wrapper" key={i}>
-              <img src={img.img} alt="logo" />
+            <div className='client_img_wrapper' key={i}>
+              <img src={img.img} alt='logo' />
             </div>
           ))}
         </div>
