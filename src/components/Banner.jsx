@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import bannerImg from '../assets/imgs/banner.jpg';
 import { Color } from '../assets/Colors.js';
+import arrowImg from "../assets/arrow_anim_01.gif";
 
 const Banner = () => {
   return (
@@ -12,7 +13,7 @@ const Banner = () => {
           I am Aijaz, a Graphic Designer & Creative Director based in kashmir.
         </h1>
         <div className='cornerImage'>
-          <img src='' alt='' />
+          <img src={arrowImg } alt='arrow' />
         </div>
       </div>
     </Section>
@@ -51,8 +52,8 @@ const Section = styled.section`
       border-bottom: 1px solid ${Color.seconderyColor};
       position: relative;
       img {
-        height: 10rem;
-        width: 10rem;
+        /* height: 10rem;
+        width: 10rem; */
         position: absolute;
         right: 0;
         bottom: 2.5rem;

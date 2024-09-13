@@ -42,10 +42,15 @@ const Contact = () => {
         <img src='#' alt='#' />
       </div>
       <div className='animationDiv'>
-        <h1>web design video branding ui/ux app video branding</h1>
+        <h1>web design video branding ui/ux app video branding web design</h1>
+      </div>
+      <div className='animationDiv1'>
+        <h1>
+          Figma Sketch Webflow Photoshop InDesign Illustrator After Effects
+          Figma Sketch Webflow Photoshop InDesign Illustrator After Effects
+        </h1>
       </div>
       <Animation />
-      <MarqueeText />
     </ContactSection>
   );
 };
@@ -61,14 +66,25 @@ const ContactSection = styled.div`
     span {
       font-weight: 800;
     }
+    @media only screen and (max-width: 450px) {
+      font-size: 5rem;
+    }
   }
   .smallHeading {
     margin-top: 5rem;
     font-size: 4rem;
     font-weight: 500;
+    @media only screen and (max-width: 450px) {
+      font-size: 2rem;
+      margin-top: 1rem;
+    }
   }
   p {
     font-size: 2rem;
+    @media only screen and (max-width: 450px) {
+      font-size: 1.5rem;
+      margin-top: 0.5rem;
+    }
   }
   .firstPara {
     margin-top: 5rem;
@@ -98,17 +114,66 @@ const ContactSection = styled.div`
   .animationDiv {
     overflow: hidden;
     h1 {
-      font-size: 20rem;
+      font-size: 18rem;
       white-space: nowrap;
-
-      animation: marquee 5s linear infinite;
+      -webkit-text-stroke-width: 2px;
+      -webkit-text-stroke-color: #ffffff84;
+      color: #021526;
+      animation: marquee 60s linear infinite;
+    }
+    @media only screen and (max-width: 450px) {
+      h1 {
+        font-size: 12rem;
+      }
+      @keyframes marquee1 {
+        0% {
+          transform: translateX(-200rem);
+        }
+        100% {
+          transform: translateX(0);
+        }
+      }
     }
     @keyframes marquee {
       0% {
-        transform: translateX(100%);
+        transform: translateX(0rem);
       }
       100% {
-        transform: translateX(0%);
+        transform: translateX(-480rem);
+      }
+    }
+  }
+  .animationDiv1 {
+    overflow: hidden;
+
+    h1 {
+      font-size: 10rem;
+      white-space: nowrap;
+      animation: marquee1 60s linear infinite;
+      -webkit-text-stroke-width: 2px;
+      -webkit-text-stroke-color: #ffffff84;
+      color: #021526;
+    }
+    @media only screen and (max-width: 450px) {
+      h1 {
+        font-size: 6rem;
+        -webkit-text-stroke-width: 1px;
+      }
+      @keyframes marquee1 {
+        0% {
+          transform: translateX(-300rem);
+        }
+        100% {
+          transform: translateX(0);
+        }
+      }
+    }
+    @keyframes marquee1 {
+      0% {
+        transform: translateX(-550rem);
+      }
+      100% {
+        transform: translateX(0);
       }
     }
   }

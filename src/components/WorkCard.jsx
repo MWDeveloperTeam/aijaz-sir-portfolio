@@ -1,17 +1,38 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import styled from 'styled-components';
 import { Color } from '../assets/Colors';
+import gsap from 'gsap';
+import { useGSAP } from '@gsap/react';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+
+gsap.registerPlugin(useGSAP);
+gsap.registerPlugin(ScrollTrigger);
 
 const WorkCard = ({ data }) => {
   const { title, img, description } = data;
 
+  // const text = useRef();
+
+  // console.log(text.current);
+
+  // useGSAP(() => {
+  //   gsap.to("#card_title", {
+  //     x: 300,
+  //     duration: 10,
+  //     delay: 2,
+  //     scrollTrigger: {
+  //       trigger: "#card_title",
+  //       scroller: "body",
+  //     },
+  //   });
+  // });
+
   return (
     <Card>
       <div className='animation_text_wrapper'>
-        <span>
-          {title}
-          {description}
-        </span>
+        <div>
+          {title} {description}
+        </div>
       </div>
       <div className='card_content_wrapper'>
         <div className='img_wrapper'>
@@ -31,44 +52,59 @@ const WorkCard = ({ data }) => {
 export default WorkCard;
 
 const Card = styled.div`
-  height: 60rem;
+  height: auto !important;
   width: 100%;
-  /* background-color: red; */
   position: relative;
   margin-bottom: 10rem;
-  &:nth-child(3) {
+
+  @media only screen and (max-width: 768px) {
+    margin-bottom: 5rem;
+  }
+
+  @media only screen and (max-width: 520px) {
+    margin-bottom: 2rem;
+  }
+
+  &:nth-child(odd) {
     .card_content_wrapper {
       flex-direction: row-reverse;
-      /* background-color: red; */
       height: auto;
 
       @media only screen and (max-width: 768px) {
         flex-direction: column;
       }
-    }
-  }
+      .content_wrapper {
+        text-align: right;
 
-  @media only screen and (max-width: 768px) {
-    /* height: auto; */
+        @media only screen and (max-width: 768px) {
+          text-align: left;
+        }
+      }
+    }
   }
 
   .animation_text_wrapper {
     width: 100%;
-    /* background-color: red; */
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    span {
-      /* background-color: maroon; */
+    position: absolute;
+    top: 25%;
+    z-index: 0;
+    @media only screen and (max-width: 520px) {
+      top: 15%;
+    }
+
+    div {
       white-space: nowrap;
       font-size: 15rem;
-      color: #000000;
+      color: ${Color.primaryColor};
       font-weight: 900;
       text-shadow: 1px 0 #ffffff1a, -1px 0 #ffffff1a, 0 1px #ffffff1a,
         0 -1px #ffffff1a, 1px 1px #ffffff1a, -1px -1px #ffffff1a,
         1px -1px #ffffff1a, -1px 1px #ffffff1a;
       animation: animi 15s linear infinite;
+
+      @media only screen and (max-width: 520px) {
+        font-size: 10rem;
+      }
     }
 
     @keyframes animi {
@@ -82,12 +118,12 @@ const Card = styled.div`
   }
 
   .card_content_wrapper {
-    /* width: 100%; */
     display: flex;
-    height: 100%;
-    position: absolute;
-    /* background-color: aqua; */
+    position: relative;
     top: 0;
+    padding: 1rem;
+    z-index: 2;
+    /* background-color: maroon; */
 
     @media only screen and (max-width: 768px) {
       flex-direction: column;
@@ -95,8 +131,6 @@ const Card = styled.div`
 
     .img_wrapper {
       width: 60%;
-      /* height: auto; */
-      /* background-color: red; */
       @media only screen and (max-width: 768px) {
         width: 100%;
       }
@@ -104,7 +138,6 @@ const Card = styled.div`
       img {
         width: 100%;
         height: auto;
-        /* object-fit: cover; */
         border: 1rem solid ${Color.seconderyColor};
         border-radius: 0.4rem;
         object-position: 100%;
@@ -127,16 +160,17 @@ const Card = styled.div`
     }
 
     .content_wrapper {
-      /* background-color: #58b309; */
       display: flex;
       align-items: flex-end;
       padding: 2rem;
       flex: 1;
+
+      @media only screen and (max-width: 520px) {
+        padding: 2rem 0;
+      }
       h1 {
         display: flex;
         flex-direction: column;
-        /* justify-content: flex-end; */
-        /* background-color: blue; */
         flex: 1;
 
         span:nth-child(1) {
@@ -144,6 +178,10 @@ const Card = styled.div`
           color: ${Color.seconderyColor};
           @media only screen and (max-width: 950px) {
             font-size: 3rem;
+          }
+
+          @media only screen and (max-width: 520px) {
+            font-size: 2rem;
           }
         }
 

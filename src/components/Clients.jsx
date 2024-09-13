@@ -2,6 +2,7 @@ import React from 'react';
 import { Color } from '../assets/Colors';
 import styled from 'styled-components';
 
+
 const Clients = () => {
   const imgs = [
     {

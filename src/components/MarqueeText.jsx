@@ -5,14 +5,19 @@ const MarqueeText = () => {
   return (
     <Section>
       <div class='wrapper'>
-        <div class='itemLeft item1'>web </div>
-        <div class='itemLeft item2'>design</div>
+        <div class='itemLeft item1'>
+          web web design video branding ui/ux app video branding
+        </div>
+        <div class='itemLeft item2'>
+          web web design video branding ui/ux app video branding
+        </div>
+        {/* <div class='itemLeft item2'>design</div>
         <div class='itemLeft item3'>video</div>
         <div class='itemLeft item4'>branding</div>
         <div class='itemLeft item5'>ui/ux</div>
         <div class='itemLeft item6'>app</div>
         <div class='itemLeft item7'>video</div>
-        <div class='itemLeft item8'>branding</div>
+        <div class='itemLeft item8'>branding</div> */}
       </div>
       <div class='wrapper'>
         <div class='itemRight item1'></div>
@@ -52,7 +57,7 @@ const Section = styled.div`
 
   @keyframes scrollLeft {
     to {
-      left: -700px;
+      transform: translate(-100rem);
     }
   }
 
@@ -64,9 +69,8 @@ const Section = styled.div`
 
   .itemLeft,
   .itemRight {
-    /* width: 200px; */
-    /* height: 100px; */
-    height: auto;
+    /* width: 200px;
+    height: 100px; */
     background-color: #e11d48;
     /* border-radius: 6px; */
     /* position: absolute; */
