@@ -1,9 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
 import { Color } from "../assets/Colors";
+import WorkModel from "./WorkModel";
+import Photos from "../assets/Photos";
 
 const WorkCard = ({ data }) => {
-  const { title, img, description } = data;
+  const { title, img, description, slug } = data;
+  const [modelOpen, setModelOpen] = useState(false);
+
+  const modelHander = () => {
+    setModelOpen((prev) => !prev);
+  };
+
   return (
     <Card>
       <div className="animation_text_wrapper">
@@ -12,16 +20,19 @@ const WorkCard = ({ data }) => {
         </div>
       </div>
       <div className="card_content_wrapper">
-        <div className="img_wrapper">
+        <div className="img_wrapper" onClick={modelHander}>
           <img src={img} alt="Image" />
         </div>
-        <div className="content_wrapper">
+        <div className="content_wrapper" onClick={modelHander}>
           <h1>
             <span>{title} </span>
             <span>{description}</span>
           </h1>
         </div>
       </div>
+      {modelOpen ? (
+        <WorkModel modelOpen={modelHander} data={Photos[slug]} title={title}/>
+      ) : null}
     </Card>
   );
 };
@@ -29,7 +40,8 @@ const WorkCard = ({ data }) => {
 export default WorkCard;
 
 const Card = styled.div`
-  height: auto !important;
+  cursor: pointer;
+  height: auto;
   width: 100%;
   position: relative;
   margin-bottom: 10rem;

@@ -3,41 +3,38 @@ import styled from "styled-components";
 import { Color } from "../../assets/Colors";
 import WorkHeader from "../../components/WorkHeader";
 import GraphicDesign from "../../components/Graphic Design/GraphicDesign";
-import GraphicPhoto from "../../components/Graphic Design/Photos.js";
-import ProductPhoto from "../../components/Product_Packing/Photos.js";
-import VisualPhoto from "../../components/3D Visualisation/Photos.js";
+import Photos from "../../assets/Photos.js";
 
 const Work = () => {
   return (
     <WorkSection>
       <WorkHeader />
-      <div className='my_work_gallery_container'>
-        <div className='graphic_design_header_wrapper'>
+      <div className="my_work_gallery_container">
+        <div className="graphic_design_header_wrapper">
           <h1>
             <span>Graphic</span> <span>Desiging</span>
           </h1>
         </div>
-        <GraphicDesign Photoss={GraphicPhoto} />
+        <GraphicDesign Photoss={Photos.GraphicPhoto} />
       </div>
 
-      <div className='my_work_gallery_container'>
-        <div className='graphic_design_header_wrapper'>
+      <div className="my_work_gallery_container">
+        <div className="graphic_design_header_wrapper">
           <h1>
             <span>3D</span> <span>Visualisation</span>
           </h1>
         </div>
-        <GraphicDesign Photoss={VisualPhoto} />
+        <GraphicDesign Photoss={Photos.Photo3D} />
       </div>
 
-      <div className='my_work_gallery_container'>
-        <div className='graphic_design_header_wrapper'>
+      <div className="my_work_gallery_container">
+        <div className="graphic_design_header_wrapper">
           <h1>
             <span>Product &</span> <span>Packaging</span>
           </h1>
         </div>
 
-        <GraphicDesign Photoss={ProductPhoto} />
-
+        <GraphicDesign Photoss={Photos.ProductPackaging} />
       </div>
     </WorkSection>
   );

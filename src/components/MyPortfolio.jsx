@@ -13,16 +13,19 @@ const MyPortfolio = () => {
       img: Image3D,
       title: "3D Visualisation",
       description: "Naming, Branding, Web Design",
+      slug: "Photo3D",
     },
     {
       img: ImageGraphic,
       title: "Graphics Design",
       description: "Naming, Branding, Packing",
+      slug: "GraphicPhoto",
     },
     {
       img: ImageProduct,
       title: "Product & Packaging",
       description: "Branding, Web Design, App",
+      slug: "ProductPackaging",
     },
   ];
 

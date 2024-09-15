@@ -40,11 +40,11 @@ const SideBar = styled.div`
   width: 100%;
   height: 100vh;
   overflow: hidden;
-  background-color: #b6b6b678;
+  background-color: rgba(0, 0, 0, 0.471);
   position: fixed;
   top: 0;
   left: 0;
-  /* filter: blur(2px); */
+  backdrop-filter: blur(6px);
   transform: translate(${(props) => props.translate});
   transition: ease-in-out 0.3s;
 

@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import styled from "styled-components";
 import { Color } from "../../assets/Colors.js";
@@ -18,8 +17,6 @@ const GraphicDesign = ({ Photoss }) => {
   const photoHander = () => {
     SetNewPhoto(Photoss.slice(0, Photoss.length));
   };
-
-
   return (
     <GraphicSection>
       <ColumnsPhotoAlbum
@@ -27,10 +24,8 @@ const GraphicDesign = ({ Photoss }) => {
         targetRowHeight={500}
         onClick={({ index }) => setIndex(index)}
         spacing={20}
-
         lazy={true}
         columns={(containerWidth) => {
-
           if (containerWidth < 400) return 1;
           if (containerWidth < 800) return 2;
           if (containerWidth < 1000) return 3;
