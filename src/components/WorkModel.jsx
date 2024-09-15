@@ -51,8 +51,6 @@ const Model = styled.div`
       display: flex;
       justify-content: space-between;
       align-items: center;
-      /* background-color: red; */
-      /* position: sticky; */
       h3 {
         font-size: 4rem;
 
@@ -84,8 +82,7 @@ const Model = styled.div`
     .model_body {
       overflow: auto;
       background-color: ${Color.primaryColor};
-      padding: 2rem 0;
-      /* flex: 1; */
+      padding: 2rem 1rem;
     }
   }
 `;
