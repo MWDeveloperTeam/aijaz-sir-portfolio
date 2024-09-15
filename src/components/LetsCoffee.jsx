@@ -1,22 +1,64 @@
-import React, { useState } from 'react';
-import styled from 'styled-components';
-import { IoArrowRedoSharp } from 'react-icons/io5';
-import { Color } from '../assets/Colors';
-import arrowImg from '../assets/arrow_anim_01.gif';
+import React from "react";
+import styled from "styled-components";
+import { IoArrowRedoSharp } from "react-icons/io5";
+import { Color } from "../assets/Colors";
+import arrowImg from "../assets/arrow_anim_01.gif";
+import SplitTextJS from "split-text-js";
+import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
+
+gsap.registerPlugin(useGSAP);
 
 const LetsCoffee = () => {
+  useGSAP(() => {
+    const titles = gsap.utils.toArray(".change_text");
+    const tl = gsap.timeline();
+
+    titles.forEach((title) => {
+      const splitTitle = new SplitTextJS(title);
+      tl.from(
+        splitTitle.chars,
+        {
+          opacity: 0,
+          y: 30,
+          rotateX: -90,
+          stagger: 0.02,
+          delay: 0,
+        },
+        "<"
+      );
+
+      tl.to(
+        splitTitle.chars,
+        {
+          opacity: 0,
+          y: -30,
+          rotateX: 90,
+          stagger: 0.02,
+          delay: 4,
+        },
+        "<1"
+      );
+
+      tl.repeat(-1);
+    });
+  }, []);
   return (
     <Coffee>
-      <div className='coffee_left_wrapper'>
-        <h1>
-          <span>Let's</span> <span>Coffee</span>
-        </h1>
+      <div className="coffee_left_wrapper">
+        <div className="animated_text_wrapper">
+          <div>Let's</div>
+          <div className="changable_text">
+            <p className="change_text">Coffee</p>
+            <p className="change_text">Talk</p>
+            <p className="change_text">Design</p>
+          </div>
+        </div>
         <h1>together!​</h1>
       </div>
-      <div className='coffee_right_wrapper'>
-        <img src={arrowImg} alt='arrow' />
-        <div className='coffee_right_wrapper'>
-          <IoArrowRedoSharp />
+      <div className="coffee_right_wrapper">
+        <img src={arrowImg} alt="arrow" />
+        <div className="coffee_right_wrapper">
           <h3>Get in touch</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
@@ -62,9 +104,29 @@ const Coffee = styled.div`
       min-width: 200px;
       width: 100%;
     }
-    h1 {
+    .animated_text_wrapper {
       font-size: 8rem;
       font-weight: 900;
+      display: flex;
+      gap: 1.2rem;
+      align-items: center;
+
+      @media only screen and (max-width: 1020px) {
+        font-size: 6rem;
+      }
+
+      @media only screen and (max-width: 768px) {
+        font-size: 4rem;
+      }
+
+      .changable_text {
+        p {
+          line-height: 0;
+        }
+      }
+    }
+    h1 {
+      font-size: 8rem;
 
       @media only screen and (max-width: 1020px) {
         font-size: 6rem;

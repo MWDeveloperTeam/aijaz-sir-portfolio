@@ -1,19 +1,20 @@
-import React from 'react';
-import styled from 'styled-components';
-import bannerImg from '../assets/imgs/banner.jpg';
-import { Color } from '../assets/Colors.js';
+import React from "react";
+import styled from "styled-components";
+import bannerImg from "../assets/imgs/banner_img.jpg";
+import { Color } from "../assets/Colors.js";
 import arrowImg from "../assets/arrow_anim_01.gif";
 
 const Banner = () => {
   return (
     <Section>
-      <img src={bannerImg} alt='hero' className='bannerImage' />
-      <div className='bannerContent'>
+      <img src={bannerImg} alt="hero" className="bannerImage" />
+      <div className="bannerContent">
         <h1>
-          I am Aijaz, a Graphic Designer & Creative Director based in kashmir.
+          I am Aijaz, a Graphic Designer & Creative Director based in San
+          Francisco.
         </h1>
-        <div className='cornerImage'>
-          <img src={arrowImg } alt='arrow' />
+        <div className="cornerImage">
+          <img src={arrowImg} alt="arrow" />
         </div>
       </div>
     </Section>
@@ -24,11 +25,13 @@ export default Banner;
 const Section = styled.section`
   height: 130vh;
   position: relative;
+  /* background-color: red; */
   width: 100%;
   max-width: 120rem;
   .bannerImage {
+    /* border: 1px solid blue; */
     width: 100%;
-    height: 100%;
+    height: auto;
     position: absolute;
     left: 0;
     top: 0;
