@@ -30,7 +30,6 @@ const Header = () => {
       ) : (
         <div>
           <SlMenu
-            // style={{ color: "#fff", fontSize: "2.6rem" }}
             onClick={menuHandler}
             id="side_icon"
           />

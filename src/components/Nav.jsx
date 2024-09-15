@@ -6,9 +6,9 @@ import { Color } from '../assets/Colors';
 const Nav = () => {
   const menu_list = [
     { items: "Home", to: "/" },
-    { items: "Work", to: "work" },
-    { items: "About", to: "about" },
-    { items: "Contact", to: "contact" },
+    { items: "Work", to: "/work" },
+    { items: "About", to: "/about" },
+    { items: "Contact", to: "/contact" },
   ];
   return (
     <Navigation>
