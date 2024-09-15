@@ -6,6 +6,7 @@ import About from "./pages/about/About";
 import Contact from "./pages/contact/Contact";
 import Layout from "./components/Layout";
 import Work from "./pages/work/Work";
+import PageNotFound from "./pages/404/404";
 
 const App = () => {
   const elements = useRoutes([
@@ -18,16 +19,20 @@ const App = () => {
           element: <Home />,
         },
         {
-          path: "about",
+          path: "/about",
           element: <About />,
         },
         {
-          path: "contact",
+          path: "/contact",
           element: <Contact />,
         },
         {
-          path: "work",
+          path: "/work",
           element: <Work />,
+        },
+        {
+          path: "*",
+          element: <PageNotFound />,
         },
       ],
     },
