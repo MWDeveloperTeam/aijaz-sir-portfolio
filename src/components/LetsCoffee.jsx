@@ -1,11 +1,12 @@
 import React from "react";
 import styled from "styled-components";
-import { IoArrowRedoSharp } from "react-icons/io5";
 import { Color } from "../assets/Colors";
 import arrowImg from "../assets/arrow_anim_01.gif";
 import SplitTextJS from "split-text-js";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
+import { Link } from "react-router-dom";
+import { mailData } from "../assets/mailData";
 
 gsap.registerPlugin(useGSAP);
 
@@ -59,7 +60,14 @@ const LetsCoffee = () => {
       <div className="coffee_right_wrapper">
         <img src={arrowImg} alt="arrow" />
         <div className="coffee_right_wrapper">
-          <h3>Get in touch</h3>
+          <h3>
+            <Link
+              to={`mailto:${mailData.Email}?subject=${mailData.subject}&body=${mailData.body}`}
+            >
+              {" "}
+              Get in touch{" "}
+            </Link>
+          </h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
       </div>
@@ -158,15 +166,18 @@ const Coffee = styled.div`
     }
 
     h3 {
-      font-size: 5rem;
-      font-weight: 300;
+      a {
+        color: ${Color.seconderyColor};
+        font-size: 5rem;
+        font-weight: 300;
 
-      @media only screen and (max-width: 1020px) {
-        font-size: 4rem;
-      }
+        @media only screen and (max-width: 1020px) {
+          font-size: 4rem;
+        }
 
-      @media only screen and (max-width: 520px) {
-        font-size: 3rem;
+        @media only screen and (max-width: 520px) {
+          font-size: 3rem;
+        }
       }
     }
     p {
