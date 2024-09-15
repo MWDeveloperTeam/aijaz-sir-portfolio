@@ -35,7 +35,7 @@ const LetsCoffee = () => {
           y: -30,
           rotateX: 90,
           stagger: 0.02,
-          delay: 4,
+          delay: 1,
         },
         "<1"
       );

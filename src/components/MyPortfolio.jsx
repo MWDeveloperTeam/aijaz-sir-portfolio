@@ -1,28 +1,26 @@
-import React, { useEffect, useRef } from "react";
+import React from "react";
 import styled from "styled-components";
 import { Color } from "../assets/Colors";
 import WorkCard from "./WorkCard";
-import gsap from "gsap";
-import { useGSAP } from "@gsap/react";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-
-gsap.registerPlugin(useGSAP);
-gsap.registerPlugin(ScrollTrigger);
-
+import Image3D from "../assets/imgs/3D Visualisation/14.webp";
+import ImageGraphic from "../assets/imgs/Graphic_Design_imgs/13.webp";
+import ImageProduct from "../assets/imgs/Product_Packaging/15.webp";
 const MyPortfolio = () => {
+  console.log(Image3D);
+
   const cardData = [
     {
-      img: "https://puzzlerbox.com/templatekits-free/personal/wp-content/uploads/sites/16/2022/05/project_01.jpg",
+      img: Image3D,
       title: "3D Visualisation",
       description: "Naming, Branding, Web Design",
     },
     {
-      img: "https://puzzlerbox.com/templatekits-free/personal/wp-content/uploads/sites/16/2022/05/project_02_01.jpg",
+      img: ImageGraphic,
       title: "Graphics Design",
       description: "Naming, Branding, Packing",
     },
     {
-      img: "https://puzzlerbox.com/templatekits-free/personal/wp-content/uploads/sites/16/2022/05/project_03_01.jpg",
+      img: ImageProduct,
       title: "Product & Packaging",
       description: "Branding, Web Design, App",
     },
@@ -30,7 +28,7 @@ const MyPortfolio = () => {
 
   return (
     <Section>
-      <h1 className='title_wrapper'>
+      <h1 className="title_wrapper">
         <span>Check my</span>
         <span>Portfolio</span>
       </h1>

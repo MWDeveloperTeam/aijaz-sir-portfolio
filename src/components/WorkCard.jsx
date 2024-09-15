@@ -1,44 +1,21 @@
-import React, { useEffect, useRef } from 'react';
-import styled from 'styled-components';
-import { Color } from '../assets/Colors';
-import gsap from 'gsap';
-import { useGSAP } from '@gsap/react';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
-
-gsap.registerPlugin(useGSAP);
-gsap.registerPlugin(ScrollTrigger);
+import React from "react";
+import styled from "styled-components";
+import { Color } from "../assets/Colors";
 
 const WorkCard = ({ data }) => {
   const { title, img, description } = data;
-
-  // const text = useRef();
-
-  // console.log(text.current);
-
-  // useGSAP(() => {
-  //   gsap.to("#card_title", {
-  //     x: 300,
-  //     duration: 10,
-  //     delay: 2,
-  //     scrollTrigger: {
-  //       trigger: "#card_title",
-  //       scroller: "body",
-  //     },
-  //   });
-  // });
-
   return (
     <Card>
-      <div className='animation_text_wrapper'>
+      <div className="animation_text_wrapper">
         <div>
           {title} {description}
         </div>
       </div>
-      <div className='card_content_wrapper'>
-        <div className='img_wrapper'>
-          <img src={img} alt='Image' />
+      <div className="card_content_wrapper">
+        <div className="img_wrapper">
+          <img src={img} alt="Image" />
         </div>
-        <div className='content_wrapper'>
+        <div className="content_wrapper">
           <h1>
             <span>{title} </span>
             <span>{description}</span>

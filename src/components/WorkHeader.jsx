@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import { IoArrowRedo } from "react-icons/io5";
 import { Color } from "../assets/Colors";
 import arrowImg from "../assets/arrow_anim_01.gif";
 

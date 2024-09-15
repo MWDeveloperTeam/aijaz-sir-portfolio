@@ -1,7 +1,7 @@
-import React from 'react';
-import styled from 'styled-components';
-import { NavLink } from 'react-router-dom';
-import { Color } from '../assets/Colors';
+import React from "react";
+import styled from "styled-components";
+import { NavLink } from "react-router-dom";
+import { Color } from "../assets/Colors";
 
 const Nav = () => {
   const menu_list = [
@@ -15,7 +15,11 @@ const Nav = () => {
       <ul>
         {menu_list.map((item, i) => (
           <li key={i}>
-            <NavLink to={item.to} onClick={() => setOpen(false)}>
+            <NavLink
+              to={item.to}
+              onClick={() => setOpen(false)}
+              className={({ isActive }) => (isActive ? "active" : "")}
+            >
               {item.items}
             </NavLink>
           </li>
@@ -42,6 +46,10 @@ const Navigation = styled.nav`
         &:hover {
           color: ${Color.helpingColor};
         }
+      }
+
+      .active {
+        color: ${Color.helpingColor};
       }
     }
   }
