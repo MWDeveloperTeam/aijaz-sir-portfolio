@@ -54,7 +54,6 @@ const Contact = () => {
           </h1>
         </div>
       </div>
-      {/* <Animation /> */}
       <LetsCoffee />
     </ContactSection>
   );

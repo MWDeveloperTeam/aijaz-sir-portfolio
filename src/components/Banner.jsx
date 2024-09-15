@@ -1,8 +1,9 @@
-import React from "react";
-import styled from "styled-components";
-import bannerImg from "../assets/imgs/banner_img.jpg";
-import { Color } from "../assets/Colors.js";
-import arrowImg from "../assets/arrow_anim_01.gif";
+
+import React from 'react';
+import styled from 'styled-components';
+import bannerImg from '../assets/imgs/banner.jpg';
+import { Color } from '../assets/Colors.js';
+import arrowImg from '../assets/arrow_anim_01.gif';
 
 const Banner = () => {
   return (
@@ -13,8 +14,8 @@ const Banner = () => {
           I am Aijaz, a Graphic Designer & Creative Director based in San
           Francisco.
         </h1>
-        <div className="cornerImage">
-          <img src={arrowImg} alt="arrow" />
+        <div className='cornerImage'>
+          <img src={arrowImg} alt='arrow' />
         </div>
       </div>
     </Section>
@@ -64,7 +65,7 @@ const Section = styled.section`
     }
   }
   @media only screen and (max-width: 1024px) {
-    height: 100vh;
+    height: 80vh;
 
     .bannerContent {
       left: 10rem;
@@ -85,7 +86,7 @@ const Section = styled.section`
     }
   }
   @media only screen and (max-width: 768px) {
-    height: 100vh;
+    height: 80vh;
 
     .bannerContent {
       left: 5rem;
@@ -93,7 +94,7 @@ const Section = styled.section`
 
       h1 {
         font-size: 4rem;
-        line-height: 1em;
+        line-height: 1.5em;
       }
       .cornerImage {
         height: 15rem;
@@ -107,15 +108,15 @@ const Section = styled.section`
     }
   }
   @media only screen and (max-width: 425px) {
-    height: 120vh;
+    height: 50vh;
 
     .bannerContent {
       left: 2rem;
       padding-right: 1rem;
 
       h1 {
-        font-size: 4rem;
-        line-height: 5rem;
+        font-size: 3rem;
+        line-height: 4rem;
       }
       .cornerImage {
         height: 10rem;
