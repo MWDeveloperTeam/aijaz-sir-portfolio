@@ -5,8 +5,6 @@ import { MdOutlineFacebook } from "react-icons/md";
 import { FaXTwitter, FaYoutube, FaLinkedinIn } from "react-icons/fa6";
 import ArrowImg from "../../assets/arrow_anim_01.gif";
 import { Link } from "react-router-dom";
-import Animation from "../../components/Animation";
-import MarqueeText from "../../components/MarqueeText";
 import LetsCoffee from "../../components/LetsCoffee";
 import { Color } from "../../assets/Colors";
 
