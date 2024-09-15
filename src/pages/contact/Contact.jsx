@@ -50,7 +50,7 @@ const Contact = () => {
           Figma Sketch Webflow Photoshop InDesign Illustrator After Effects
         </h1>
       </div>
-      <Animation />
+      {/* <Animation /> */}
     </ContactSection>
   );
 };
