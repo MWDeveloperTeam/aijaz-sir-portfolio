@@ -83,6 +83,50 @@ import Gimg38 from "../assets/imgs/Graphic_Design_imgs/38.webp";
 import Gimg39 from "../assets/imgs/Graphic_Design_imgs/39.webp";
 import Gimg40 from "../assets/imgs/Graphic_Design_imgs/40.webp";
 import Gimg41 from "../assets/imgs/Graphic_Design_imgs/41.webp";
+import Gimg42 from "../assets/imgs/Graphic_Design_imgs/42.webp";
+import Gimg43 from "../assets/imgs/Graphic_Design_imgs/43.webp";
+import Gimg44 from "../assets/imgs/Graphic_Design_imgs/44.webp";
+import Gimg45 from "../assets/imgs/Graphic_Design_imgs/45.webp";
+import Gimg46 from "../assets/imgs/Graphic_Design_imgs/46.webp";
+import Gimg47 from "../assets/imgs/Graphic_Design_imgs/47.webp";
+import Gimg48 from "../assets/imgs/Graphic_Design_imgs/48.webp";
+import Gimg49 from "../assets/imgs/Graphic_Design_imgs/49.webp";
+import Gimg50 from "../assets/imgs/Graphic_Design_imgs/50.webp";
+import Gimg51 from "../assets/imgs/Graphic_Design_imgs/51.webp";
+import Gimg52 from "../assets/imgs/Graphic_Design_imgs/52.webp";
+import Gimg53 from "../assets/imgs/Graphic_Design_imgs/53.webp";
+import Gimg54 from "../assets/imgs/Graphic_Design_imgs/54.webp";
+import Gimg55 from "../assets/imgs/Graphic_Design_imgs/55.webp";
+import Gimg56 from "../assets/imgs/Graphic_Design_imgs/56.webp";
+import Gimg57 from "../assets/imgs/Graphic_Design_imgs/57.webp";
+import Gimg58 from "../assets/imgs/Graphic_Design_imgs/58.webp";
+import Gimg59 from "../assets/imgs/Graphic_Design_imgs/59.webp";
+import Gimg60 from "../assets/imgs/Graphic_Design_imgs/60.webp";
+import Gimg61 from "../assets/imgs/Graphic_Design_imgs/61.webp";
+import Gimg62 from "../assets/imgs/Graphic_Design_imgs/62.webp";
+import Gimg63 from "../assets/imgs/Graphic_Design_imgs/63.webp";
+import Gimg64 from "../assets/imgs/Graphic_Design_imgs/64.webp";
+import Gimg65 from "../assets/imgs/Graphic_Design_imgs/65.webp";
+import Gimg66 from "../assets/imgs/Graphic_Design_imgs/66.webp";
+import Gimg67 from "../assets/imgs/Graphic_Design_imgs/67.webp";
+import Gimg68 from "../assets/imgs/Graphic_Design_imgs/68.webp";
+import Gimg69 from "../assets/imgs/Graphic_Design_imgs/69.webp";
+import Gimg70 from "../assets/imgs/Graphic_Design_imgs/70.webp";
+import Gimg71 from "../assets/imgs/Graphic_Design_imgs/71.webp";
+import Gimg72 from "../assets/imgs/Graphic_Design_imgs/72.webp";
+import Gimg73 from "../assets/imgs/Graphic_Design_imgs/73.webp";
+import Gimg74 from "../assets/imgs/Graphic_Design_imgs/74.webp";
+import Gimg75 from "../assets/imgs/Graphic_Design_imgs/75.webp";
+import Gimg76 from "../assets/imgs/Graphic_Design_imgs/76.webp";
+import Gimg77 from "../assets/imgs/Graphic_Design_imgs/77.webp";
+import Gimg78 from "../assets/imgs/Graphic_Design_imgs/78.webp";
+import Gimg79 from "../assets/imgs/Graphic_Design_imgs/79.webp";
+import Gimg80 from "../assets/imgs/Graphic_Design_imgs/80.webp";
+import Gimg81 from "../assets/imgs/Graphic_Design_imgs/81.webp";
+import Gimg82 from "../assets/imgs/Graphic_Design_imgs/82.webp";
+import Gimg83 from "../assets/imgs/Graphic_Design_imgs/83.webp";
+import Gimg84 from "../assets/imgs/Graphic_Design_imgs/84.webp";
+
 //
 
 const Photos = {
@@ -491,6 +535,221 @@ const Photos = {
     },
     {
       src: Gimg41,
+      width: 1400,
+      height: 1200,
+    },
+    {
+      src: Gimg42,
+      width: 1400,
+      height: 1200,
+    },
+    {
+      src: Gimg43,
+      width: 1400,
+      height: 1200,
+    },
+    {
+      src: Gimg44,
+      width: 1400,
+      height: 1200,
+    },
+    {
+      src: Gimg45,
+      width: 1400,
+      height: 1200,
+    },
+    {
+      src: Gimg46,
+      width: 1400,
+      height: 1200,
+    },
+    {
+      src: Gimg47,
+      width: 1400,
+      height: 1200,
+    },
+    {
+      src: Gimg48,
+      width: 1400,
+      height: 1200,
+    },
+    {
+      src: Gimg49,
+      width: 1400,
+      height: 1200,
+    },
+    {
+      src: Gimg45,
+      width: 1400,
+      height: 1200,
+    },
+    {
+      src: Gimg51,
+      width: 1400,
+      height: 1200,
+    },
+    {
+      src: Gimg52,
+      width: 1400,
+      height: 1200,
+    },
+    {
+      src: Gimg53,
+      width: 1400,
+      height: 1200,
+    },
+    {
+      src: Gimg54,
+      width: 1400,
+      height: 1200,
+    },
+    {
+      src: Gimg55,
+      width: 1400,
+      height: 1200,
+    },
+    {
+      src: Gimg56,
+      width: 1400,
+      height: 1200,
+    },
+    {
+      src: Gimg57,
+      width: 1400,
+      height: 1200,
+    },
+    {
+      src: Gimg58,
+      width: 1400,
+      height: 1200,
+    },
+    {
+      src: Gimg59,
+      width: 1400,
+      height: 1200,
+    },
+    {
+      src: Gimg60,
+      width: 1400,
+      height: 1200,
+    },
+    {
+      src: Gimg61,
+      width: 1400,
+      height: 1200,
+    },
+    {
+      src: Gimg62,
+      width: 1400,
+      height: 1200,
+    },
+    {
+      src: Gimg63,
+      width: 1400,
+      height: 1200,
+    },
+    {
+      src: Gimg64,
+      width: 1400,
+      height: 1200,
+    },
+    {
+      src: Gimg65,
+      width: 1400,
+      height: 1200,
+    },
+    {
+      src: Gimg66,
+      width: 1400,
+      height: 1200,
+    },
+    {
+      src: Gimg67,
+      width: 1400,
+      height: 1200,
+    },
+    {
+      src: Gimg68,
+      width: 1400,
+      height: 1200,
+    },
+    {
+      src: Gimg69,
+      width: 1400,
+      height: 1200,
+    },
+    {
+      src: Gimg70,
+      width: 1400,
+      height: 1200,
+    },
+    {
+      src: Gimg71,
+      width: 1400,
+      height: 1200,
+    },
+    {
+      src: Gimg72,
+      width: 1400,
+      height: 1200,
+    },
+    {
+      src: Gimg73,
+      width: 1400,
+      height: 1200,
+    },
+    {
+      src: Gimg74,
+      width: 1400,
+      height: 1200,
+    },
+    {
+      src: Gimg75,
+      width: 1400,
+      height: 1200,
+    },
+    {
+      src: Gimg76,
+      width: 1400,
+      height: 1200,
+    },
+    {
+      src: Gimg77,
+      width: 1400,
+      height: 1200,
+    },
+    {
+      src: Gimg78,
+      width: 1400,
+      height: 1200,
+    },
+    {
+      src: Gimg79,
+      width: 1400,
+      height: 1200,
+    },
+    {
+      src: Gimg80,
+      width: 1400,
+      height: 1200,
+    },
+    {
+      src: Gimg81,
+      width: 1400,
+      height: 1200,
+    },
+    {
+      src: Gimg82,
+      width: 1400,
+      height: 1200,
+    },
+    {
+      src: Gimg83,
+      width: 1400,
+      height: 1200,
+    },
+    {
+      src: Gimg84,
       width: 1400,
       height: 1200,
     },
