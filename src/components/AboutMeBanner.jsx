@@ -1,17 +1,14 @@
 import React from "react";
 import styled from "styled-components";
-import { Color } from "../assets/Colors";
+import AboutBannerImg from "../assets/imgs/banner_image.webp";
 
 const AboutMeBanner = () => {
   return (
     <AboutBanner>
       <div className="about_banner_img_wrapper">
-        <img
-          src="https://puzzlerbox.com/templatekits-free/personal/wp-content/uploads/sites/16/2022/05/image-4BR9XSS.jpg"
-          alt="Image"
-        />
+        <img src={AboutBannerImg} alt="Image" />
         <h1>
-          I am <i>Aijaz Ahmad</i>, a Graphic Designer & Creative Director
+          I'm <i>Aijaz</i>, a passionate Graphic Designer and 3D Visualizer
         </h1>
       </div>
     </AboutBanner>

@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import { Color } from "../assets/Colors";
 
 const Skills = () => {
   return (
@@ -8,22 +7,21 @@ const Skills = () => {
       <div className="skills_wrapper">
         <h2>Software</h2>
         <ul>
-          <li>Figma</li>
-          <li>Sketch</li>
           <li>Photoshop</li>
-          <li>InDesign</li>
           <li>Illustrator</li>
+          <li>Premiere Pro</li>
           <li>After Effects</li>
+          <li>3DS Max</li>
+          <li>V-Ray</li>
         </ul>
       </div>
       <div className="keys_wrapper">
         <h2>Key Skills</h2>
         <ul>
-          <li>Identity system design</li>
-          <li>User-experience design</li>
-          <li>User-interface design</li>
-          <li>Data analysis</li>
-          <li>Critical thinking</li>
+          <li>Brand Design</li>
+          <li>Product & Packaging Design</li>
+          <li>3D Visualisation</li>
+          <li>Audio & Video Editing</li>
         </ul>
       </div>
     </AbourSkills>

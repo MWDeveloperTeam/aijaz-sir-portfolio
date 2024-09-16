@@ -7,17 +7,21 @@ const AboutMeHeader = () => {
   return (
     <AboutMeHeaderSection>
       <h1>
-        <span>Abouts</span>
+        <span>About</span>
         <span>Me</span>
       </h1>
       <p className="about_header_title">
         I'm <span style={{ fontWeight: 900, fontStyle: "italic" }}>Aijaz </span>
         , a passionate graphic designer and 3D visualizer dedicated to crafting
-        compelling visualexperiences.
+        compelling visual experiences.
       </p>
       <p className="about_disc">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
-        luctus nec ullamcorper mattis, pulvinar dapibus leo.
+        With over a decade of experience in design, i have established myself as
+        a seasoned professional with deep expertise across various design
+        disciplines. I have a proven track record of delivering high-quality
+        designs that balance aesthetics with functionality, and my ability to
+        adapt to evolving design trends underscores my commitment to excellence
+        in the field.
       </p>
       <div className="about_icon">
         <img src={arrowImg} alt="arrow" />
@@ -70,7 +74,7 @@ const AboutMeHeaderSection = styled.section`
   .about_disc {
     font-size: 1.8rem;
     max-width: 70rem;
-    line-height: 4rem;
+    line-height: 2.8rem;
     color: ${Color.seconderyColorLight};
 
     @media only screen and (max-width: 1020px) {

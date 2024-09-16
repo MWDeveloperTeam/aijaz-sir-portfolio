@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import { Color } from "../../assets/Colors";
 import AboutMeHeader from "../../components/AboutMeHeader";
 import AboutMeBanner from "../../components/AboutMeBanner";
 import Skills from "../../components/Skills";

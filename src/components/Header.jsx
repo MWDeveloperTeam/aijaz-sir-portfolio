@@ -5,6 +5,7 @@ import { Color } from "../assets/Colors";
 import { SlMenu } from "react-icons/sl";
 import SideMenu from "./SideMenu";
 import logoImg from "../assets/imgs/sitename.gif";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [windowSize, setWindowSize] = useState(window.innerWidth);
@@ -22,17 +23,16 @@ const Header = () => {
   return (
     <Section>
       <div className="logo_wrapper">
-        <img src={logoImg} alt="logo" />
+        <Link to="/">
+          <img src={logoImg} alt="logo" />
+        </Link>
       </div>
 
       {windowSize >= 768 ? (
         <Nav />
       ) : (
         <div>
-          <SlMenu
-            onClick={menuHandler}
-            id="side_icon"
-          />
+          <SlMenu onClick={menuHandler} id="side_icon" />
         </div>
       )}
       <SideMenu open={open} setOpen={setOpen} />

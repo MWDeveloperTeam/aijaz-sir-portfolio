@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import bannerImg from "../assets/imgs/banner.jpg";
+import bannerImg from "../assets/imgs/banner_image.webp";
 import { Color } from "../assets/Colors.js";
 import arrowImg from "../assets/arrow_anim_01.gif";
 

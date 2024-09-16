@@ -11,8 +11,8 @@ const WorkHeader = () => {
         <span>Work</span>
       </h1>
       <p className="about_disc">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
-        luctus nec ullamcorper mattis, pulvinar dapibus leo.
+        A Showcase of My Latest 3D Visualisation, Packaging Designs and social
+        media advertisements.
       </p>
       <div className="about_icon">
         <img src={arrowImg} alt="arrowImg" />
@@ -65,7 +65,7 @@ const WorkHeaderSection = styled.section`
   .about_disc {
     font-size: 1.8rem;
     max-width: 70rem;
-    line-height: 4rem;
+    line-height: 2.6rem;
     color: ${Color.seconderyColorLight};
 
     @media only screen and (max-width: 1020px) {

@@ -35,11 +35,14 @@ const Contact = () => {
       </div>
       <div className="animation_wrapper_contact">
         <div className="animationDiv">
-          <h1>web design video branding ui/ux app video branding.</h1>
+          <h1>
+            Brand Design Product & Packaging Design 3D Visualisation Audio &
+            Video Editing
+          </h1>
         </div>
         <div className="animationDiv1">
           <h1>
-            Figma Sketch Webflow Photoshop InDesign Illustrator After Effects
+            Photoshop Illustrator After Effects Premiere Pro 3DS Max V-Ray
           </h1>
         </div>
       </div>
@@ -91,9 +94,7 @@ const ContactSection = styled.div`
       margin-top: 0.5rem;
     }
   }
-  /* .firstPara {
-    margin-top: 5rem;
-  } */
+
   .mail {
     display: block;
     margin-top: 5rem;
@@ -151,8 +152,7 @@ const ContactSection = styled.div`
         -webkit-text-stroke-width: 2px;
         -webkit-text-stroke-color: #ffffff84;
         color: #000;
-        /* transform: translateX(190rem); */
-        animation: marquee 30s linear infinite;
+        animation: marquee 40s linear infinite;
         @media only screen and (max-width: 768px) {
           font-size: 14rem;
         }
@@ -168,7 +168,7 @@ const ContactSection = styled.div`
           transform: translateX(calc(1200px + 680px));
         }
         100% {
-          transform: translateX(-580rem);
+          transform: translateX(-810rem);
         }
       }
       /* 1920px Screen */
@@ -178,7 +178,7 @@ const ContactSection = styled.div`
             transform: translateX(calc(1200px + 360px));
           }
           100% {
-            transform: translateX(-540rem);
+            transform: translateX(-790rem);
           }
         }
       }
@@ -189,7 +189,7 @@ const ContactSection = styled.div`
             transform: translateX(calc(1200px + 120px));
           }
           100% {
-            transform: translateX(-520rem);
+            transform: translateX(-755rem);
           }
         }
       }
@@ -201,7 +201,7 @@ const ContactSection = styled.div`
             transform: translateX(1024px);
           }
           100% {
-            transform: translateX(-500rem);
+            transform: translateX(-745rem);
           }
         }
       }
@@ -213,7 +213,7 @@ const ContactSection = styled.div`
             transform: translateX(768px);
           }
           100% {
-            transform: translateX(-390rem);
+            transform: translateX(-580rem);
           }
         }
       }
@@ -225,7 +225,7 @@ const ContactSection = styled.div`
             transform: translateX(425px);
           }
           100% {
-            transform: translateX(-280rem);
+            transform: translateX(-415rem);
           }
         }
       }
@@ -237,7 +237,7 @@ const ContactSection = styled.div`
             transform: translateX(375px);
           }
           100% {
-            transform: translateX(-275rem);
+            transform: translateX(-415rem);
           }
         }
       }
@@ -249,7 +249,7 @@ const ContactSection = styled.div`
             transform: translateX(320px);
           }
           100% {
-            transform: translateX(-275rem);
+            transform: translateX(-415rem);
           }
         }
       }
@@ -264,6 +264,9 @@ const ContactSection = styled.div`
         -webkit-text-stroke-width: 1px;
         -webkit-text-stroke-color: #ffffff84;
         color: #000;
+
+        /* transform: translateX(-390rem); */
+
         @media only screen and (max-device-width: 425px) {
           font-size: 6rem;
         }
@@ -273,10 +276,10 @@ const ContactSection = styled.div`
 
       @keyframes marquee1 {
         0% {
-          transform: translateX(-4020px);
+          transform: translateX(-392rem);
         }
         100% {
-          transform: translateX(2000px);
+          transform: translateX(calc(1200px + 680px));
         }
       }
 
@@ -284,10 +287,10 @@ const ContactSection = styled.div`
       @media only screen and (max-width: 1920px) {
         @keyframes marquee1 {
           0% {
-            transform: translateX(-3700px);
+            transform: translateX(-370rem);
           }
           100% {
-            transform: translateX(calc(1920px - 360px));
+            transform: translateX(calc(1200px + 360px));
           }
         }
       }
@@ -296,10 +299,10 @@ const ContactSection = styled.div`
       @media only screen and (max-width: 1440px) {
         @keyframes marquee1 {
           0% {
-            transform: translateX(-3500px);
+            transform: translateX(-350rem);
           }
           100% {
-            transform: translateX(calc(1440px - 120px));
+            transform: translateX(calc(1200px + 120px));
           }
         }
       }
@@ -308,7 +311,7 @@ const ContactSection = styled.div`
       @media only screen and (max-width: 1024px) {
         @keyframes marquee1 {
           0% {
-            transform: translateX(-3400px);
+            transform: translateX(-330rem);
           }
           100% {
             transform: translateX(calc(1024px));
@@ -320,7 +323,7 @@ const ContactSection = styled.div`
       @media only screen and (max-width: 768px) {
         @keyframes marquee1 {
           0% {
-            transform: translateX(-3400px);
+            transform: translateX(-336rem);
           }
           100% {
             transform: translateX(calc(768px));
@@ -344,7 +347,7 @@ const ContactSection = styled.div`
       @media only screen and (max-device-width: 375px) {
         @keyframes marquee1 {
           0% {
-            transform: translateX(-2050px);
+            transform: translateX(-195rem);
           }
           100% {
             transform: translateX(calc(375px));
@@ -356,7 +359,7 @@ const ContactSection = styled.div`
       @media only screen and (max-device-width: 320px) {
         @keyframes marquee1 {
           0% {
-            transform: translateX(-2050px);
+            transform: translateX(-195rem);
           }
           100% {
             transform: translateX(calc(320px));
