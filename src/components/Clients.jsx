@@ -31,11 +31,11 @@ const Clients = () => {
       <div className="client_content_wrapper">
         <div className="client_left_wrapper">
           <h3>
-            I worked with some pretty outstanding people at some pretty awesome
+            I worked with some pretty outstanding people and some pretty awesome
             companies.
           </h3>
           <p>
-            Over the years, I’ve had the privilege of collaborating with various
+            Over the years, I've had the privilege of collaborating with various
             companies and clients, delivering tailored design solutions that
             meet their unique needs. My experience has honed my ability to adapt
             and innovate, ensuring that each project not only meets but exceeds

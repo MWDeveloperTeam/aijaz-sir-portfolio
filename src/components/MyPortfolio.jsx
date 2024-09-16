@@ -15,15 +15,9 @@ const MyPortfolio = () => {
     {
       img: ImageGraphic,
       title: "Graphics Design",
-      description: "Branding, packaging, Advertisement",
+      description: "Branding, Packaging, Advertisement",
       slug: "GraphicPhoto",
     },
-    // {
-    //   img: ImageProduct,
-    //   title: "Product & Packaging",
-    //   description: "Branding, Web Design, App",
-    //   slug: "ProductPackaging",
-    // },
   ];
 
   return (

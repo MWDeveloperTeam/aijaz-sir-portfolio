@@ -31,7 +31,7 @@ const WorkCard = ({ data }) => {
         </div>
       </div>
       {modelOpen ? (
-        <WorkModel modelOpen={modelHander} data={Photos[slug]} title={title}/>
+        <WorkModel modelOpen={modelHander} data={Photos[slug]} title={title} />
       ) : null}
     </Card>
   );
@@ -112,7 +112,6 @@ const Card = styled.div`
     top: 0;
     padding: 1rem;
     z-index: 2;
-    /* background-color: maroon; */
 
     @media only screen and (max-width: 768px) {
       flex-direction: column;
@@ -127,7 +126,7 @@ const Card = styled.div`
       img {
         width: 100%;
         height: auto;
-        border: .3rem solid ${Color.seconderyColor};
+        border: 0.3rem solid ${Color.seconderyColor};
         border-radius: 0.4rem;
         object-position: 100%;
         transition: ease-in-out 0.3s;
