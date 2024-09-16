@@ -127,7 +127,7 @@ const Card = styled.div`
       img {
         width: 100%;
         height: auto;
-        border: 1rem solid ${Color.seconderyColor};
+        border: .3rem solid ${Color.seconderyColor};
         border-radius: 0.4rem;
         object-position: 100%;
         transition: ease-in-out 0.3s;

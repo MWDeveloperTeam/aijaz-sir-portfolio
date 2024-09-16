@@ -67,7 +67,7 @@ const LetsCoffee = () => {
               Get in touch
             </Link>
           </h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p>Connect with us to explore how we can assist you!</p>
         </div>
       </div>
     </Coffee>

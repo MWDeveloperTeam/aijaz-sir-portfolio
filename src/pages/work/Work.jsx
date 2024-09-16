@@ -26,16 +26,6 @@ const Work = () => {
         </div>
         <GraphicDesign Photoss={Photos.Photo3D} />
       </div>
-
-      <div className="my_work_gallery_container">
-        <div className="graphic_design_header_wrapper">
-          <h1>
-            <span>Product &</span> <span>Packaging</span>
-          </h1>
-        </div>
-
-        <GraphicDesign Photoss={Photos.ProductPackaging} />
-      </div>
     </WorkSection>
   );
 };

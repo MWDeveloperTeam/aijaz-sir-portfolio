@@ -1,7 +1,7 @@
 export const mailData = {
-  Email: "aijazahmad@gmail.com",
+  Email: "itz.aijaz@gmail.com",
   cc: "",
   bcc: "",
-  subject: "Hello world from your email address",
-  body: "Hello world from your email address this is body ",
+  subject: "Enquiry",
+  body: "Hello Can we get connected to discuss a project ",
 };

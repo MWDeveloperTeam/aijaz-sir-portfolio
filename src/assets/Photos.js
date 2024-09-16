@@ -62,33 +62,27 @@ import Gimg17 from "../assets/imgs/Graphic_Design_imgs/17.webp";
 import Gimg18 from "../assets/imgs/Graphic_Design_imgs/18.webp";
 import Gimg19 from "../assets/imgs/Graphic_Design_imgs/19.webp";
 import Gimg20 from "../assets/imgs/Graphic_Design_imgs/20.webp";
-//
-
-// Product Packaging Photos
-import Pimg1 from "../assets/imgs/Product_Packaging/1.webp";
-import Pimg2 from "../assets/imgs/Product_Packaging/2.webp";
-import Pimg3 from "../assets/imgs/Product_Packaging/3.webp";
-import Pimg4 from "../assets/imgs/Product_Packaging/4.webp";
-import Pimg5 from "../assets/imgs/Product_Packaging/5.webp";
-import Pimg6 from "../assets/imgs/Product_Packaging/6.webp";
-import Pimg7 from "../assets/imgs/Product_Packaging/7.webp";
-import Pimg8 from "../assets/imgs/Product_Packaging/8.webp";
-import Pimg9 from "../assets/imgs/Product_Packaging/9.webp";
-import Pimg10 from "../assets/imgs/Product_Packaging/10.webp";
-import Pimg12 from "../assets/imgs/Product_Packaging/11.webp";
-import Pimg13 from "../assets/imgs/Product_Packaging/12.webp";
-import Pimg14 from "../assets/imgs/Product_Packaging/13.webp";
-import Pimg15 from "../assets/imgs/Product_Packaging/14.webp";
-import Pimg11 from "../assets/imgs/Product_Packaging/15.webp";
-import Pimg16 from "../assets/imgs/Product_Packaging/16.webp";
-import Pimg17 from "../assets/imgs/Product_Packaging/17.webp";
-import Pimg18 from "../assets/imgs/Product_Packaging/18.webp";
-import Pimg19 from "../assets/imgs/Product_Packaging/19.webp";
-import Pimg20 from "../assets/imgs/Product_Packaging/20.webp";
-import Pimg21 from "../assets/imgs/Product_Packaging/21.webp";
-import Pimg22 from "../assets/imgs/Product_Packaging/22.webp";
-import Pimg23 from "../assets/imgs/Product_Packaging/23.webp";
-import Pimg24 from "../assets/imgs/Product_Packaging/24.webp";
+import Gimg21 from "../assets/imgs/Graphic_Design_imgs/21.webp";
+import Gimg22 from "../assets/imgs/Graphic_Design_imgs/22.webp";
+import Gimg23 from "../assets/imgs/Graphic_Design_imgs/23.webp";
+import Gimg24 from "../assets/imgs/Graphic_Design_imgs/24.webp";
+import Gimg25 from "../assets/imgs/Graphic_Design_imgs/25.webp";
+import Gimg26 from "../assets/imgs/Graphic_Design_imgs/26.webp";
+import Gimg27 from "../assets/imgs/Graphic_Design_imgs/27.webp";
+import Gimg28 from "../assets/imgs/Graphic_Design_imgs/28.webp";
+import Gimg29 from "../assets/imgs/Graphic_Design_imgs/29.webp";
+import Gimg30 from "../assets/imgs/Graphic_Design_imgs/30.webp";
+import Gimg31 from "../assets/imgs/Graphic_Design_imgs/31.webp";
+import Gimg32 from "../assets/imgs/Graphic_Design_imgs/32.webp";
+import Gimg33 from "../assets/imgs/Graphic_Design_imgs/33.webp";
+import Gimg34 from "../assets/imgs/Graphic_Design_imgs/34.webp";
+import Gimg35 from "../assets/imgs/Graphic_Design_imgs/35.webp";
+import Gimg36 from "../assets/imgs/Graphic_Design_imgs/36.webp";
+import Gimg37 from "../assets/imgs/Graphic_Design_imgs/37.webp";
+import Gimg38 from "../assets/imgs/Graphic_Design_imgs/38.webp";
+import Gimg39 from "../assets/imgs/Graphic_Design_imgs/39.webp";
+import Gimg40 from "../assets/imgs/Graphic_Design_imgs/40.webp";
+import Gimg41 from "../assets/imgs/Graphic_Design_imgs/41.webp";
 //
 
 const Photos = {
@@ -395,125 +389,108 @@ const Photos = {
       width: 1400,
       height: 1200,
     },
-  ],
-  ProductPackaging: [
     {
-      src: Pimg1,
+      src: Gimg21,
       width: 1400,
       height: 1200,
     },
     {
-      src: Pimg2,
+      src: Gimg22,
       width: 1400,
       height: 1200,
     },
     {
-      src: Pimg3,
+      src: Gimg23,
       width: 1400,
       height: 1200,
     },
     {
-      src: Pimg4,
+      src: Gimg24,
       width: 1400,
       height: 1200,
     },
     {
-      src: Pimg5,
+      src: Gimg25,
       width: 1400,
       height: 1200,
     },
     {
-      src: Pimg6,
+      src: Gimg26,
       width: 1400,
       height: 1200,
     },
     {
-      src: Pimg7,
+      src: Gimg27,
       width: 1400,
       height: 1200,
     },
     {
-      src: Pimg8,
+      src: Gimg28,
       width: 1400,
       height: 1200,
     },
     {
-      src: Pimg9,
+      src: Gimg29,
       width: 1400,
       height: 1200,
     },
     {
-      src: Pimg10,
+      src: Gimg30,
       width: 1400,
       height: 1200,
     },
     {
-      src: Pimg11,
+      src: Gimg31,
       width: 1400,
       height: 1200,
     },
     {
-      src: Pimg12,
+      src: Gimg32,
       width: 1400,
       height: 1200,
     },
     {
-      src: Pimg13,
+      src: Gimg33,
       width: 1400,
       height: 1200,
     },
     {
-      src: Pimg14,
+      src: Gimg34,
       width: 1400,
       height: 1200,
     },
     {
-      src: Pimg15,
+      src: Gimg35,
       width: 1400,
       height: 1200,
     },
     {
-      src: Pimg16,
+      src: Gimg36,
       width: 1400,
       height: 1200,
     },
     {
-      src: Pimg17,
+      src: Gimg37,
       width: 1400,
       height: 1200,
     },
     {
-      src: Pimg18,
+      src: Gimg38,
       width: 1400,
       height: 1200,
     },
     {
-      src: Pimg19,
+      src: Gimg39,
       width: 1400,
       height: 1200,
     },
     {
-      src: Pimg20,
+      src: Gimg40,
       width: 1400,
       height: 1200,
     },
     {
-      src: Pimg21,
-      width: 1400,
-      height: 1200,
-    },
-    {
-      src: Pimg22,
-      width: 1400,
-      height: 1200,
-    },
-    {
-      src: Pimg23,
-      width: 1400,
-      height: 1200,
-    },
-    {
-      src: Pimg24,
+      src: Gimg41,
       width: 1400,
       height: 1200,
     },

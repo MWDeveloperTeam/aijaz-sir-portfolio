@@ -4,27 +4,26 @@ import { Color } from "../assets/Colors";
 import WorkCard from "./WorkCard";
 import Image3D from "../assets/imgs/3D Visualisation/14.webp";
 import ImageGraphic from "../assets/imgs/Graphic_Design_imgs/13.webp";
-import ImageProduct from "../assets/imgs/Product_Packaging/15.webp";
 const MyPortfolio = () => {
   const cardData = [
     {
       img: Image3D,
       title: "3D Visualisation",
-      description: "Naming, Branding, Web Design",
+      description: "Modeling, Texturing, Rendering",
       slug: "Photo3D",
     },
     {
       img: ImageGraphic,
       title: "Graphics Design",
-      description: "Naming, Branding, Packing",
+      description: "Branding, packaging, Advertisement",
       slug: "GraphicPhoto",
     },
-    {
-      img: ImageProduct,
-      title: "Product & Packaging",
-      description: "Branding, Web Design, App",
-      slug: "ProductPackaging",
-    },
+    // {
+    //   img: ImageProduct,
+    //   title: "Product & Packaging",
+    //   description: "Branding, Web Design, App",
+    //   slug: "ProductPackaging",
+    // },
   ];
 
   return (

@@ -16,8 +16,8 @@ const Contact = () => {
       </h1>
       <h3 className="smallHeading">Let's Start a Project together</h3>
       <p className="firstPara">
-        4399-4301 Cesar Chavez, San Francisco, CA 94131 <br />
-        415-509-6995
+        RRAA2687 - Al Qarnayn - Riyadh - 13511 <br />
+        +966540506741
       </p>
       <Link
         className="mail"
@@ -27,16 +27,7 @@ const Contact = () => {
       </Link>
       <div className="iconsWrapper">
         <div className="socialIcons">
-          <Link to={"www.fb.com"}>
-            <MdOutlineFacebook />
-          </Link>
-          <Link to={"www.twitter.com"}>
-            <FaXTwitter />
-          </Link>
-          <Link to={"www.youtube.com"}>
-            <FaYoutube />
-          </Link>
-          <Link to={"www.linkedin.com"}>
+          <Link to={"https://linkedin.com/in/aijazrather"} target="_blank">
             <FaLinkedinIn />
           </Link>
         </div>
@@ -64,7 +55,7 @@ const ContactSection = styled.div`
 
   @media only screen and (max-width: 450px) {
     padding-top: 2rem;
-    }
+  }
   .heading {
     font-size: 7rem;
     font-weight: 300;
