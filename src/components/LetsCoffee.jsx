@@ -64,8 +64,7 @@ const LetsCoffee = () => {
             <Link
               to={`mailto:${mailData.Email}?subject=${mailData.subject}&body=${mailData.body}`}
             >
-              {" "}
-              Get in touch{" "}
+              Get in touch
             </Link>
           </h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -170,13 +169,45 @@ const Coffee = styled.div`
         color: ${Color.seconderyColor};
         font-size: 5rem;
         font-weight: 300;
+        transition: ease-in-out 0.3s;
 
+        &:hover {
+          color: ${Color.helpingColor};
+        }
+        animation: blink-1 8s linear 1s infinite;
         @media only screen and (max-width: 1020px) {
           font-size: 4rem;
         }
 
         @media only screen and (max-width: 520px) {
           font-size: 3rem;
+        }
+
+        @keyframes blink-1 {
+          0% {
+            opacity: 1;
+          }
+          10% {
+            opacity: 0;
+          }
+          25% {
+            opacity: 1;
+          }
+          50% {
+            opacity: 1;
+          }
+          60% {
+            opacity: 0;
+          }
+          70% {
+            opacity: 1;
+          }
+          90% {
+            opacity: 1;
+          }
+          100% {
+            opacity: 0;
+          }
         }
       }
     }

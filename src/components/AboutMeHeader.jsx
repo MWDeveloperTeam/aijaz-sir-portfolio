@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import { IoArrowRedo } from "react-icons/io5";
 import { Color } from "../assets/Colors";
 import arrowImg from "../assets/arrow_anim_01.gif";
 
@@ -12,11 +11,9 @@ const AboutMeHeader = () => {
         <span>Me</span>
       </h1>
       <p className="about_header_title">
-        I am{" "}
-        <span style={{ fontWeight: "900", fontStyle: "italic" }}>
-          Aijaz Ahmad
-        </span>
-        , a Graphic Designer & Creative Director based in San Francisco.
+        I'm <span style={{ fontWeight: 900, fontStyle: "italic" }}>Aijaz </span>
+        , a passionate graphic designer and 3D visualizer dedicated to crafting
+        compelling visualexperiences.
       </p>
       <p className="about_disc">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,

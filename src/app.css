@@ -19,17 +19,23 @@ html {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey; 
+  box-shadow: inset 0 0 5px rgba(168, 168, 168, 0.666);
   border-radius: 10px;
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #1F75FE; 
+  background: #1f75fe;
   border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #0544a8; 
+  background: #0544a8;
+}
+
+@media only screen and (max-device-width: 768px) , (max-width: 768px) {
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
 }

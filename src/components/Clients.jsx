@@ -35,15 +35,15 @@ const Clients = () => {
             companies.
           </h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            Over the years, I’ve had the privilege of collaborating with various
+            companies and clients, delivering tailored design solutions that
+            meet their unique needs. My experience has honed my ability to adapt
+            and innovate, ensuring that each project not only meets but exceeds
+            expectations. Whether working with large organizations or individual
+            clients, I am committed to bringing creativity and precision to
+            every endeavor.
           </p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
         </div>
         <div className="client_right_wrapper">
           {imgs.map((img, i) => (

@@ -12,10 +12,13 @@ const Banner = () => {
       </div>
       <div className="banner_content_wrapper">
         <div className="banner_title_wrapper">
-          <h1>
-            I am Aijaz, a Graphic Designer & Creative Director based in San
-            Francisco.
-          </h1>
+          <div>
+            <h1> I'm Aijaz,</h1>
+            <p>
+              a passionate Graphic Designer and 3D Visualizer dedicated to
+              crafting compelling visual experiences.
+            </p>
+          </div>
         </div>
         <div className="banner_anim_wrapper">
           <img src={arrowImg} alt="arrow" />
@@ -49,53 +52,85 @@ const Section = styled.section`
     align-items: flex-end;
     gap: 8rem;
 
-    @media only screen and (max-device-width: 950px) {
+    @media only screen and (max-device-width: 890px), (max-width: 890px) {
       gap: 4rem;
     }
-    @media only screen and (max-device-width: 700px) {
+
+    @media only screen and (max-device-width: 440px), (max-width: 440px) {
       gap: 1rem;
     }
 
     .banner_title_wrapper {
-      width: 70%;
-      @media only screen and (max-device-width: 950px) {
+      width: 80%;
+
+      @media only screen and (max-device-width: 768px), (max-width: 768px) {
         width: 100%;
-        padding: 0 0 0 10rem;
       }
-      @media only screen and (max-device-width: 700px) {
-        padding: 0 2rem 0 3rem;
-      }
-      h1 {
-        font-size: 8rem;
+
+      > div {
         color: #fff;
-        font-weight: 900;
-        line-height: 11rem;
+        h1 {
+          font-size: 12rem;
+          color: #fff;
+          font-weight: 900;
 
-        @media only screen and (max-width: 1100px) {
-          font-size: 7rem;
-          line-height: 9rem;
-        }
+          @media only screen and (max-device-width: 1100px),
+            (max-width: 1100px) {
+            font-size: 11rem;
+          }
 
-        @media only screen and (max-device-width: 950px) {
-          font-size: 5rem;
-          line-height: 6.5rem;
-        }
+          @media only screen and (max-device-width: 950px), (max-width: 950px) {
+            font-size: 9rem;
+          }
 
-        @media only screen and (max-device-width: 700px) {
-          font-size: 4rem;
-          line-height: 6rem;
+          @media only screen and (max-device-width: 768px), (max-width: 768px) {
+            font-size: 7rem;
+          }
+
+          @media only screen and (max-device-width: 590px), (max-width: 590px) {
+            font-size: 5rem;
+          }
+
+          @media only screen and (max-device-width: 440px), (max-width: 440px) {
+            font-size: 3.5rem;
+          }
+
         }
-        @media only screen and (max-device-width: 550px) {
-          font-size: 3rem;
-          line-height: 3.8rem;
-        }
-        @media only screen and (max-device-width: 420px) {
-          font-size: 2.5rem;
-          line-height: 3rem;
-        }
-        @media only screen and (max-device-width: 320px) {
-          font-size: 2rem;
-          line-height: 2.6rem;
+        p {
+          font-size: 6.8rem;
+          color: ${Color.seconderyColor};
+          font-weight: 700;
+          line-height: 7.5rem;
+
+          @media only screen and (max-device-width: 1100px),
+            (max-width: 1100px) {
+            font-size: 5.5rem;
+            line-height: 6.2rem;
+          }
+
+          @media only screen and (max-device-width: 950px), (max-width: 950px) {
+            font-size: 4rem;
+            line-height: 5rem;
+          }
+
+          @media only screen and (max-device-width: 768px), (max-width: 768px) {
+            font-size: 3rem;
+            line-height: 4rem;
+          }
+
+          @media only screen and (max-device-width: 590px), (max-width: 590px) {
+            font-size: 2.2rem;
+            line-height: 3rem;
+          }
+          @media only screen and (max-device-width: 440px), (max-width: 440px) {
+            font-size: 1.8rem;
+            line-height: 2.2rem;
+          }
+
+          @media only screen and (max-device-width: 340px), (max-width: 340px) {
+            font-size: 1.6rem;
+            line-height: 2rem;
+          }
         }
       }
     }
@@ -103,6 +138,11 @@ const Section = styled.section`
     .banner_anim_wrapper {
       align-self: flex-end;
       padding-bottom: 3rem;
+
+      @media only screen and (max-device-width: 600px) {
+        padding-bottom: .5rem;
+      }
+
       @media only screen and (max-device-width: 420px) {
         padding-bottom: 1rem;
       }
@@ -110,10 +150,17 @@ const Section = styled.section`
         width: 8rem;
         align-self: flex-end;
 
-        @media only screen and (max-device-width: 420px) {
+        @media only screen and (max-device-width: 768px),
+          (max-device-width: 768px) {
+          width: 6rem;
+        }
+
+        @media only screen and (max-device-width: 420px),
+          (max-device-width: 420px) {
           width: 5rem;
         }
-        @media only screen and (max-device-width: 320px) {
+        @media only screen and (max-device-width: 320px),
+          (max-device-width: 320px) {
           width: 4rem;
         }
       }

@@ -6,8 +6,6 @@ import Image3D from "../assets/imgs/3D Visualisation/14.webp";
 import ImageGraphic from "../assets/imgs/Graphic_Design_imgs/13.webp";
 import ImageProduct from "../assets/imgs/Product_Packaging/15.webp";
 const MyPortfolio = () => {
-  console.log(Image3D);
-
   const cardData = [
     {
       img: Image3D,
