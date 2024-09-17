@@ -63,10 +63,6 @@ import Gimg18 from "../assets/imgs/Graphic_Design_imgs/18.webp";
 import Gimg19 from "../assets/imgs/Graphic_Design_imgs/19.webp";
 import Gimg20 from "../assets/imgs/Graphic_Design_imgs/20.webp";
 import Gimg21 from "../assets/imgs/Graphic_Design_imgs/21.webp";
-import Gimg22 from "../assets/imgs/Graphic_Design_imgs/22.webp";
-import Gimg23 from "../assets/imgs/Graphic_Design_imgs/23.webp";
-import Gimg24 from "../assets/imgs/Graphic_Design_imgs/24.webp";
-import Gimg25 from "../assets/imgs/Graphic_Design_imgs/25.webp";
 import Gimg26 from "../assets/imgs/Graphic_Design_imgs/26.webp";
 import Gimg27 from "../assets/imgs/Graphic_Design_imgs/27.webp";
 import Gimg28 from "../assets/imgs/Graphic_Design_imgs/28.webp";
@@ -435,26 +431,6 @@ const Photos = {
     },
     {
       src: Gimg21,
-      width: 1400,
-      height: 1200,
-    },
-    {
-      src: Gimg22,
-      width: 1400,
-      height: 1200,
-    },
-    {
-      src: Gimg23,
-      width: 1400,
-      height: 1200,
-    },
-    {
-      src: Gimg24,
-      width: 1400,
-      height: 1200,
-    },
-    {
-      src: Gimg25,
       width: 1400,
       height: 1200,
     },

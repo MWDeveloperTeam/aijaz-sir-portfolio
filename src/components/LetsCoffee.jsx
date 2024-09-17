@@ -67,7 +67,7 @@ const LetsCoffee = () => {
               Get in touch
             </Link>
           </h3>
-          <p>Connect with me to explore how we can assist you!</p>
+          <p>Connect with me to explore how i can assist you!</p>
         </div>
       </div>
     </Coffee>
